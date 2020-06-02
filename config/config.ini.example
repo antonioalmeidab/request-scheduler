@@ -1,0 +1,13 @@
+[REDIS]
+host=
+port=
+db=
+
+[REQUEST]
+URL=
+
+[INSTANCE]
+schedule_path=
+env_path=
+schedule_command=cd {0} && {1}bin/python3 {0}request_run.py {2} {3}
+user=
